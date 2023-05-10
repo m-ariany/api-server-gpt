@@ -1,6 +1,6 @@
 # chatgpt-api-server
 
-## API
+## API 
 
 The API has only one endpoint located at `/prompt`, which accepts an HTTP POST request with a plain text body.
 
