@@ -16,7 +16,7 @@ type ChatGPT struct {
 }
 
 type Server struct {
-	Port int `env:"SERVER_PORT" envDefault:"8080"`
+	Port int `env:"PORT" envDefault:"8080"` // Heroku sets the PORT value automatically.
 }
 
 type Config struct {
